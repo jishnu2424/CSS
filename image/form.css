@@ -1,0 +1,32 @@
+body{
+    margin-top: 100px;
+}
+div{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border: outset;
+    padding: 50px;
+    padding-left: 25px;
+    background-color: rgb(209, 207, 207);
+}
+form {
+    align-items: center; 
+    padding-left: 50px;
+    font-size: large;
+    align-content: center;
+}
+
+h1{
+    text-align: center;
+    color: rgb(53, 47, 47);
+}
+button{
+    background-color: rgb(0, 139, 252);
+    color: white;
+    border: hidden;
+    width: 85px;
+    height: 30px;
+    font-weight: bolder;
+    margin-left: 100px;
+}
