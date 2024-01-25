@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav{
+        background-color: green;
+        height:70px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+    ul{
+        display: flex;  
+    }
+    li{
+   margin-top:10px;
+   list-style-type: none ;
+   margin-right: 25px;
+  
+    }
+    ul ul{
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 630px;
+        background-color:green;
+        color: white;
+        font-size: 25px;
+        
+    }
+    li:hover > ul{
+        display: block;
+    }
+    ul li{
+        width: 100%;
+    }
+    ul li a{
+        color: white;
+        padding: 10px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 25px;
+    }
+    li a:hover{
+        color: rgb(255, 157, 0);
+    }  
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a>
+            <ul>
+                <li>Engineering</li>
+                <li>telecom</li>
+                <li>energy</li>
+                <li>finance</li>
+                <li>consultancy</li>
+            </ul></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

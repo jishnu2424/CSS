@@ -4,3 +4,7 @@ table,td,tr,th{
     margin-top: 50px;
     border-collapse: collapse;
 }
+tr:nth-child(even){
+    background-color: green;
+    
+}

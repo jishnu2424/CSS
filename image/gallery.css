@@ -9,4 +9,5 @@ img{
     margin: 10px;
     box-shadow:blur 12px  blue;
     opacity: 0.7;
+    box-shadow: 12px 16px 18px;
 }
